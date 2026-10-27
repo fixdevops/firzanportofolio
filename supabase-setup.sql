@@ -1,5 +1,5 @@
 -- ============================================================
--- SUPABASE DATABASE SETUP - Fikri Asyam Portfolio
+-- SUPABASE DATABASE SETUP - Firzan Hanafia Asroni Portfolio
 -- ============================================================
 -- Jalankan SQL ini di Supabase Dashboard > SQL Editor
 -- URL: https://supabase.com/dashboard/project/YOUR_PROJECT/sql/new

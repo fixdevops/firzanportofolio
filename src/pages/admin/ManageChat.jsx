@@ -64,8 +64,8 @@ export default function ManageChat() {
       await supabase.from("chat_messages").insert([
         {
           text: replyText,
-          display_name: "Fikri Asyam",
-          photo_url: "/fotoprofile fixz.png",
+          display_name: "Firzan Hanafia Asroni",
+          photo_url: "/assets/yonfirzan.jpeg",
           uid: user?.id || "owner",
           is_owner: true,
           created_at: new Date().toISOString(),
@@ -252,7 +252,7 @@ export default function ManageChat() {
             placeholder={
               selectedUid !== "all"
                 ? `Balas ke ${uniqueUsers.find((u) => u.uid === selectedUid)?.display_name || "user"}...`
-                : "Tulis balasan sebagai Fikri Asyam..."
+                : "Tulis balasan sebagai Firzan Hanafia Asroni..."
             }
             className="flex-1 border border-gray-200 rounded-xl px-4 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-gray-300"
             disabled={sending}

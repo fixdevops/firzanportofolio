@@ -1,4 +1,4 @@
-# Fikri Asyam Portfolio
+# Firzan Hanafia Asroni Portfolio
 
 Frontend React (Vite) dengan backend Supabase.
 

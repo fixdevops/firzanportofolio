@@ -104,7 +104,7 @@ export default function Sidebar({ onClose }) {
       {/* Footer */}
       <div className="px-4 py-3 border-t border-gray-100">
         <p className="text-[10px] text-gray-400 text-center">
-          © {new Date().getFullYear()} Fikri Asyam
+          © {new Date().getFullYear()} Firzan Hanafia Asroni
         </p>
       </div>
     </div>

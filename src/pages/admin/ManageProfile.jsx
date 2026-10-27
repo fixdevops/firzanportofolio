@@ -77,9 +77,9 @@ export default function ManageProfile() {
 
   // ── default profile (fallback) ────────────────────────────
   const DEFAULT_PROFILE = {
-    name:           "Nadia Aulya Oktaviana",
-    role:           "UI/UX Designer || Canva Specialist",
-    bio:            "Saya Nadia Aulya Oktaviana, seorang mahasiswa yang kreatif dan berdedikasi tinggi. Saya memiliki ketertarikan mendalam di bidang UI/UX design serta pembuatan desain visual menggunakan Canva. Berlatar belakang pendidikan di Universitas Nahdlatul Ulama Sunan Giri, saya percaya bahwa pengembangan diri adalah kunci utama dalam mencapai cita-cita. Saya selalu terbuka untuk mempelajari hal baru dan mengasah keterampilan demi menciptakan karya visual yang intuitif dan berdampak.",
+    name:           "Firzan Hanafia Asroni",
+    role:           "Software Engineer",
+    bio:            "Saya Firzan Hanafia Asroni, seorang mahasiswa yang memiliki minat besar dan keahlian di bidang public speaking dan komunikasi. Saya percaya bahwa penyampaian pesan yang jelas dan persuasif adalah kunci untuk menginspirasi serta membangun hubungan yang berdampak.",
     github_url:     "",
     linkedin_url:   "",
     email:          "",
@@ -528,13 +528,13 @@ export default function ManageProfile() {
                 <Field label="Nama Pemilik Site">
                   <input type="text" value={siteSettings?.site_name || ""}
                     onChange={(e) => setSiteSettings((p) => ({ ...p, site_name: e.target.value }))}
-                    placeholder="Fikri Asyam" className={inputCls} />
+                    placeholder="Firzan Hanafia Asroni" className={inputCls} />
                 </Field>
 
                 <Field label="Title Tab Browser">
                   <input type="text" value={siteSettings?.site_title || ""}
                     onChange={(e) => setSiteSettings((p) => ({ ...p, site_title: e.target.value }))}
-                    placeholder="Fikri Asyam | Frontend Developer Portfolio"
+                    placeholder="Firzan Hanafia Asroni | Frontend Developer Portfolio"
                     className={inputCls} />
                 </Field>
 

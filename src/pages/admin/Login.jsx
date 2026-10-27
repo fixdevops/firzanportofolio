@@ -124,7 +124,7 @@ export default function Login() {
         </div>
 
         <p className="mt-5 text-xs text-center text-gray-400">
-          © {new Date().getFullYear()} Fikri Asyam. All rights reserved.
+          © {new Date().getFullYear()} Firzan Hanafia Asroni. All rights reserved.
         </p>
       </div>
     </div>

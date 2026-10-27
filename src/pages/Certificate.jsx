@@ -102,16 +102,16 @@ export default function Certificate() {
               <div className="flex flex-col items-center py-6 border border-gray-200 rounded-xl bg-white shadow-sm mb-4">
                 {/* Foto profil */}
                 <img
-                  src="/fotoprofile fixz.png"
-                  alt="M. FIKRI ASYAM JAUHARY"
+                  src="/assets/yonfirzan.jpeg"
+                  alt="Firzan Hanafia Asroni"
                   className="w-24 h-24 rounded-full object-cover border-2 border-gray-200 shadow-md mb-3"
                 />
                 {/* Nama */}
-                <h3 className="text-base font-bold text-gray-800">M. FIKRI ASYAM JAUHARY</h3>
+                <h3 className="text-base font-bold text-gray-800">FIRZAN HANAFIA ASRONI</h3>
                 <p className="text-xs text-gray-500 mt-0.5">Software Engineer · Cysec Engineer</p>
                 {/* Tombol LinkedIn */}
                 <a
-                  href="https://www.linkedin.com/in/mfikriasyamjauhary/"
+                  href="https://www.linkedin.com/in/firzan-hanafia-asroni/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-3 flex items-center gap-2 px-4 py-2 bg-[#0A66C2] hover:bg-[#084d93] text-white text-xs font-semibold rounded-lg transition-colors"

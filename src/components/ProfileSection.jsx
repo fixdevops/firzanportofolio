@@ -28,10 +28,10 @@ export default function ProfileSection() {
   }
 
   // Default values — ditampilkan kalau DB belum diisi, bisa diubah lewat admin
-  const DEFAULT_NAME  = "Nadia Aulya Oktaviana";
-  const DEFAULT_ROLE  = "UI/UX Designer || Canva Specialist";
-  const DEFAULT_BIO   = "Saya Nadia Aulya Oktaviana, seorang mahasiswa yang kreatif dan berdedikasi tinggi. Saya memiliki ketertarikan mendalam di bidang UI/UX design serta pembuatan desain visual menggunakan Canva. Berlatar belakang pendidikan di Universitas Nahdlatul Ulama Sunan Giri, saya percaya bahwa pengembangan diri adalah kunci utama dalam mencapai cita-cita. Saya selalu terbuka untuk mempelajari hal baru dan mengasah keterampilan demi menciptakan karya visual yang intuitif dan berdampak.";
-  const DEFAULT_PHOTO = `${import.meta.env.BASE_URL}fotoprofile fixz.png`;
+  const DEFAULT_NAME  = "Firzan Hanafia Asroni";
+  const DEFAULT_ROLE  = "Software Engineer";
+  const DEFAULT_BIO   = "Saya Firzan Hanafia Asroni, seorang mahasiswa yang memiliki minat besar dan keahlian di bidang public speaking dan komunikasi. Saya percaya bahwa penyampaian pesan yang jelas dan persuasif adalah kunci untuk menginspirasi serta membangun hubungan yang berdampak.";
+  const DEFAULT_PHOTO = `${import.meta.env.BASE_URL}assets/yonfirzan.jpeg`;
 
   const name    = profile?.name    || DEFAULT_NAME;
   const role    = profile?.role    || DEFAULT_ROLE;

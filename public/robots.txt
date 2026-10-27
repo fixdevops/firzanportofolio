@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /404
 Allow: /
 
-Sitemap: https://fikriasyam.vercel.app/sitemap.xml
+Sitemap: https://firzan.vercel.app/sitemap.xml
